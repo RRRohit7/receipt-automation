@@ -1,0 +1,14 @@
+# Note: Some packages require system-level dependencies:
+#  - pdf2image requires the `poppler` binaries (install via OS package manager or from https://poppler.freedesktop.org/)
+#  - torch (PyTorch) may be installed with a CUDA-enabled build; if unsure, install the CPU-only wheel from https://pytorch.org
+
+opencv-python>=4.7.0
+easyocr>=1.6.2
+pandas>=1.5.0
+pdf2image>=1.16.0
+Pillow>=9.0.0
+# PyTorch is required by EasyOCR. Install a matching torchvision if needed.
+torch>=2.0.0
+torchvision>=0.15.0
+
+
